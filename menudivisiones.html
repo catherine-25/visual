@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo uso del elemento div y del atributo id</title>
+    <style>
+            * { 
+              margin:0;
+              padding:0;
+            }
+            a:link, a:visited, a:hover, a:active {
+              color:#0f0;
+              font-size:16px;
+            }
+            body {
+              background:rgb(241, 250, 219);
+              font-family:verdana;
+            }
+            h1 {
+              color:rgb(241, 110, 241);
+              font-size:24px;
+            }
+            p {
+              font-size:16px;
+            }
+            ul {
+              list-style-type:none;
+            }
+            #cabecera {
+              color:#ff9;
+              background-color:rgb(235, 175, 193);
+              padding:10px;
+            }
+            #contenedor {
+              margin:0 auto;
+              width:800px;
+            }
+            #contenido {
+              background-color:rgb(225, 240, 186);
+              float:left;
+              height:500px;
+              padding:10px;
+              width:550px;
+            }
+            #menu {
+              background-color:rgba(243, 219, 233, 0.616);
+              float:left;
+              height:480px;
+              padding:20px;
+              width:180px;
+            }
+            #pie { 
+              background-color:rgb(243, 193, 241);
+              clear:both;
+              color:rgb(15, 14, 14);
+              padding:10px;
+              text-align:center;
+            }
+          </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="cabecera">
+        <p>Párrafo en la cabecera de la página.</p>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="img/Minnie-Mouse-sketch-3.jpg">Minnie-Mouse-sketch-3</a></li>
+          <li><a href="https://es.wikipedia.org/wiki/Monsters,_Inc.">Monsters</a></li>
+          <li><a href="http://institutomisionerosmonfortianos.drelm.edu.pe/">institutomisionerosmonfortianos</a></li>
+        </ul>
+      </div>
+      <div id="contenido">
+        <h1>Elemplo: Uso del elemento &quot;div&quot; y del atributo <i>id</i></h1>
+        <p>Párrafo en el contenido de la página.</p>
+      </div>
+      <div id="pie">
+        <p>Párrafo en el pie de la página.</p>
+      </div>
+    </div>
+  </body>
+</html>
