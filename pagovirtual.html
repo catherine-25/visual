@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pago Virtual</title>
+    <style>
+        table tr td{
+            border: 3px  solid rgb(15, 15, 15);
+        }
+        header{
+            position:relative;
+            margin:auto;
+            text-align:center;
+            padding:5px;
+        }
+        nav{
+            position:relative;
+            margin:auto;
+            width:100%;
+            height:auto;
+            background: rgb(167, 141, 141);
+        }
+        nav ul{
+            position:relative;
+            margin:auto;
+            width:50%;
+            text-align: center;
+        }
+        nav ul li{
+            display:inline-block;
+            width:24%;
+            line-height:40px;
+            list-style:none;
+        }
+        nav ul li a{
+            color:rgb(27, 25, 25);
+            text-decoration-color: rgb(27, 27, 26)
+        }
+        section{
+            position: relative;
+            padding:20px;
+        }
+
+    </style>
+    
+</head>
+<body style="background-color: rgb(169, 177, 174)" >
+    <header>
+        <h1>Sistema de Matricula</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="requisitos.html">Requisitos de Matricula</a></li>
+            
+            <li><a href="pagovirtual.html">Pago Virtual</a></li>
+            
+            <li><a href="administracion.html">Administracion</a></li>
+        
+        </ul>
+    </nav>
+    <table>
+        <tr>
+            <td>
+
+            
+    <section>
+        <h1>Pago Virtual</h1>
+    </section>
+    <fieldset>
+    <label for = "name">Tramite a realizar :</label>
+   
+                    <select>
+                            <center> <option value="1">Matricula de Ingresante</option></center><br>
+                            <center><option value="2">Traslado externo</option></center><br>
+                            <center><option value="3">Repitencia de Semestre</option></center>
+                            <center><option value="4">Ratificacion</option></center>
+                            <center><option value="5">Cambio de Turno</option></center>
+                            <center><option value="6">Reingreso</option></center>
+                             
+                   </select>
+    <form>
+        
+        <div>
+          <br>  <label for ="name"> Codigo del alumno:</label>
+            
+         <input type= "text" id= "Numero de cuenta" size="10">
+        </div>
+
+         <br> <label for="txtdatos">datos del alumno:</label>
+              <input type="text" id="txtdatos" > <br>
+         
+        
+       
+       <br> <label for = "name">Numero de la tarjeta de  :</label>
+            <input type="text" id= "Monto a pagar" size="20">
+        
+      <br><br><label for = "name">CVV  :</label>
+                    <input type="text" id= "Monto a pagar"  size="10">
+        <br>
+
+        <br><br> <label for="txtFechanac">Fecha de Nacimiento</label>
+        <input type="date" id="txtFechanac" ><br>
+       <br> <label for = "name">Tipo de tarjeta   :</label>
+
+        <select>
+                  <center> <option value="DEBITO">DEBITO</option></center>
+                  <center><option value="CREDITO">CREDITO</option></center>
+        </select>
+        <br><br>
+        <div class = "Button">
+            <button type="submit">ENVIAR</button>
+        </div>
+        
+    </fieldset>
+    </form>
+</td>
+</tr>
+</table>
+</body>
+</html>

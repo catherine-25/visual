@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pago Virtual con Administracion</title>
+    <style>
+       
+        header{
+            position:relative;
+            margin:auto;
+            text-align:center;
+            padding:5px;
+        }
+        nav{
+            position:relative;
+            margin:auto;
+            width:100%;
+            height:auto;
+            background:#F08080;
+        }
+        nav ul{
+            position:relative;
+            margin:auto;
+            width:50%;
+            text-align: center;
+        }
+        nav ul li{
+            display:inline-block;
+            width:24%;
+            line-height:50px;
+            list-style:none;
+        }
+        nav ul li a{
+            color:rgb(17, 17, 16);
+            text-decoration:none;
+        }
+        section{
+            position: relative;
+            padding:20px;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(169, 177, 174)">
+        >
+    <header>
+        <h1>Sistema de Matricula</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="requisitos.html">Requisitos de Matricula</a></li>
+            
+            <li><a href="pagovirtual.html">Pago Virtual</a></li>
+            
+            <li><a href="administracion.html">Administracion</a></li>
+        
+        </ul>
+    </nav>
+    <section>
+        <h1>Administracion</h1>
+    </section>
+    <hr>
+    <h2>Sistema de Matricula virtual con administracion</h2>
+    <ul>
+        <li>si es alumno desea volver a matricularse para el siguiente ciclo, ingresar datos en la parte inferior</li>
+        <li>si desea contactarnos tenemos un numero con el que puede comunicarse :930243245</li>
+        <li>si desea puede dejarnos un mensaje al correo misionero19_monfortianos@hotmail.com</li>
+
+    </ul>
+    <h3>Ficha de matricula semestral</h3>
+    <br>
+    <table>
+            
+        <tr>
+            <td>
+                    <div>
+                           
+                         <label for ="name"> Apellido Paterno:</label>
+            
+                            <input type= "text" id= "name" size="30">
+                            <br>
+                    </div>
+            </td>
+            <td>
+                    <div>
+                            <br>  <label for ="name"> Apellido Materno:</label>
+            
+                            <input type= "text" id= "name" size="30">
+                            <br>
+                            <br>
+                        </div>
+            </td>
+          
+            <td>
+                    <div>
+                             <label for ="name">Nombre del Alumno:</label>
+            
+                            <input type= "text" id= "name" size="30">
+                            <br>
+                        </div>
+            </td>
+
+        </tr>
+    
+    
+        <tr>
+            <td>
+                    <label for = "name"> Elija su carrera  :</label>
+                    <select>
+                             <option value="Mecanica Automotriz">Mecanica Automotriz</option>
+                             <option value="Desarrollo de Sistemas de informacion">Desarrollo de sistemas de informacion</option>
+                            <option value="Enfermeria">Enfermeria</option>
+                   </select>
+            </td>
+            <td>
+            <div>
+                
+                      <label for ="name">Semestre:</label>
+    
+                    <input type= "text" id= "name" size="30">
+                    
+            </div>
+        </td>
+           
+            <td>
+                    <label for = "name">Turno :</label>
+                    <select>
+                     <option value="M">Mañana</option>
+                      <option value="T">Tarde</option>
+                             
+                   </select>
+            </td>
+        </tr>
+    
+    
+        <tr>
+                <td>
+                        <div>
+                                <br>  <label for ="name"> DNI:</label>
+                
+                                <input type= "text" id= "name" size="30">
+                                <br>
+                                <br>
+                            </div>
+                </td>
+            <td>
+                    <label for = "name">Sexo  :</label>
+                    <select>
+                            <center> <option value="Femenino">Femenino</option></center>
+                             <center><option value="Masculino">Masculino</option></center>
+                             
+                   </select>
+            </td>
+
+        </tr>
+    
+    
+        <tr>
+            <td>
+                    <label for = "name">Tramite a realizar :</label>
+                    <select>
+                            <center> <option value="1">Matricula de Ingresante</option></center>
+                            <center><option value="2">Traslado externo</option></center>
+                            <center><option value="3">Repitencia de Semestre</option></center>
+                            <center><option value="4">Ratificacion</option></center>
+                            <center><option value="5">Cambio de Turno</option></center>
+                            <center><option value="6">Reingreso</option></center>
+                             
+                   </select>
+            </td>
+        </tr>
+    </table>
+    <div class = "Button">
+            <br><button type="submit">ENVIAR</button>
+    </div>
+
+</body>
+</html>
