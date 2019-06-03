@@ -1,0 +1,12 @@
+/* Estamos trabaando con la etiqueta del cuerpo, y por lo tanto con la página COMPLETA */
+body
+{
+    background-color: rgb(166, 167, 161); /* La página de fondo será negra */
+    color: rgb(27, 27, 27); /*El texto de la página será blanco */
+}
+p
+{
+    color: rgb(240, 236, 236);
+}   
+   
+
